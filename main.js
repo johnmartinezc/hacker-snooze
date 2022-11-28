@@ -29,7 +29,7 @@ let hacker = async() =>{
         let newChild = document.createElement('div')
         let newChildTwo = document.createElement('div')
         let linkChild = document.createElement('a')
-        newChild.className = 'box zone green'
+        newChild.className = 'class'
 
         body.appendChild(newChild)
         linkChild.href = newdata.url
@@ -39,7 +39,7 @@ let hacker = async() =>{
 
 
         newChildTwo.innerHTML = `\nAuthor- ${newdata.by}`
-        newChildTwo.className = 'red'
+        newChildTwo.className = 'comment'
         newChildTwo.innerHTML = `\nScore-${newdata.score}`
         newChildTwo.innerHTML = `\nComment-${newdata.descendants}`
         body.appendChild(newChildTwo)
